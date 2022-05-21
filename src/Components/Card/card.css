@@ -1,0 +1,29 @@
+.card {
+  margin: 15px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  width: 23%;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 10px 10px 0 rgb(0, 0, 0);
+}
+
+.card-body {
+  margin: 20px auto;
+}
+.card-body h5 {
+  margin: 15px 0;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+}

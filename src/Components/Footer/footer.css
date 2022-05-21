@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #020E19;
+  height: 90px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 24px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  font-size: 17px;
+}
+
+footer li{
+    margin: 15px;
+}
+
+footer li a{
+    margin: 15px;
+    text-decoration: none;
+    color: #fff;
+}
